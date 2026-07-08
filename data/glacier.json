@@ -1,0 +1,861 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "minecraft_username": "xynvordat",
+      "discord_tag": "nyvordat",
+      "roles_completed": [],
+      "roles": [
+        "GUI Designer",
+        "GUI Developer",
+        "HUD Designer",
+        "HUD Developer",
+        "Theme Manager",
+        "Font / Text Renderer"
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "name": "GUI Designer",
+      "category": "GUI",
+      "id": 1,
+      "assigned_to": 1
+    },
+    {
+      "name": "GUI Developer",
+      "category": "GUI",
+      "id": 2,
+      "assigned_to": 1
+    },
+    {
+      "name": "HUD Designer",
+      "category": "GUI",
+      "id": 3,
+      "assigned_to": 1
+    },
+    {
+      "name": "HUD Developer",
+      "category": "GUI",
+      "id": 4,
+      "assigned_to": 1
+    },
+    {
+      "name": "Theme Manager",
+      "category": "GUI",
+      "id": 5,
+      "assigned_to": 1
+    },
+    {
+      "name": "Font / Text Renderer",
+      "category": "GUI",
+      "id": 6,
+      "assigned_to": 1
+    },
+    {
+      "name": "AimAssist Developer",
+      "category": "Combat",
+      "id": 7,
+      "assigned_to": null
+    },
+    {
+      "name": "AutoClicker Developer",
+      "category": "Combat",
+      "id": 8,
+      "assigned_to": null
+    },
+    {
+      "name": "Reach / Velocity Engineer",
+      "category": "Combat",
+      "id": 9,
+      "assigned_to": null
+    },
+    {
+      "name": "Killaura / SilentAura Developer",
+      "category": "Combat",
+      "id": 10,
+      "assigned_to": null
+    },
+    {
+      "name": "WTap / BlockHit / Sprint Developer",
+      "category": "Combat",
+      "id": 11,
+      "assigned_to": null
+    },
+    {
+      "name": "Right Clicker / KeepSprint Developer",
+      "category": "Combat",
+      "id": 12,
+      "assigned_to": null
+    },
+    {
+      "name": "Fly Developer",
+      "category": "Movement",
+      "id": 13,
+      "assigned_to": null
+    },
+    {
+      "name": "Timer / NoSlowdown Engineer",
+      "category": "Movement",
+      "id": 14,
+      "assigned_to": null
+    },
+    {
+      "name": "SafeWalk / Parkour Engineer",
+      "category": "Movement",
+      "id": 15,
+      "assigned_to": null
+    },
+    {
+      "name": "Scaffold Developer",
+      "category": "Movement",
+      "id": 16,
+      "assigned_to": null
+    },
+    {
+      "name": "Clutch / MLG / Blink Developer",
+      "category": "Movement",
+      "id": 17,
+      "assigned_to": null
+    },
+    {
+      "name": "BackTrack / FakeLag / Freecam Developer",
+      "category": "Movement",
+      "id": 18,
+      "assigned_to": null
+    },
+    {
+      "name": "ESP Developer",
+      "category": "Render",
+      "id": 19,
+      "assigned_to": null
+    },
+    {
+      "name": "Chams Developer",
+      "category": "Render",
+      "id": 20,
+      "assigned_to": null
+    },
+    {
+      "name": "NameTags / Indicators Developer",
+      "category": "Render",
+      "id": 21,
+      "assigned_to": null
+    },
+    {
+      "name": "HitSelect / Health / Arrows Developer",
+      "category": "Render",
+      "id": 22,
+      "assigned_to": null
+    },
+    {
+      "name": "AntiDebuff / Explosions Developer",
+      "category": "Render",
+      "id": 23,
+      "assigned_to": null
+    },
+    {
+      "name": "Projectiles / Target Info Developer",
+      "category": "Render",
+      "id": 24,
+      "assigned_to": null
+    },
+    {
+      "name": "AntiBot Developer",
+      "category": "Utility",
+      "id": 25,
+      "assigned_to": null
+    },
+    {
+      "name": "Inventory Manager",
+      "category": "Utility",
+      "id": 26,
+      "assigned_to": null
+    },
+    {
+      "name": "AutoPot / Throw Manager",
+      "category": "Utility",
+      "id": 27,
+      "assigned_to": null
+    },
+    {
+      "name": "Xray / Search / HitBoxes Developer",
+      "category": "Utility",
+      "id": 28,
+      "assigned_to": null
+    },
+    {
+      "name": "AutoArmor / AutoTool / FastPlace Developer",
+      "category": "Utility",
+      "id": 29,
+      "assigned_to": null
+    },
+    {
+      "name": "Macros / Alt Manager / Profiles Developer",
+      "category": "Utility",
+      "id": 30,
+      "assigned_to": null
+    },
+    {
+      "name": "Injection Specialist",
+      "category": "Core",
+      "id": 31,
+      "assigned_to": null
+    },
+    {
+      "name": "Packet / Network Engineer",
+      "category": "Core",
+      "id": 32,
+      "assigned_to": null
+    },
+    {
+      "name": "Anti-Detection Engineer",
+      "category": "Core",
+      "id": 33,
+      "assigned_to": null
+    },
+    {
+      "name": "Command System Developer",
+      "category": "Core",
+      "id": 34,
+      "assigned_to": null
+    },
+    {
+      "name": "Config / Save System Developer",
+      "category": "Core",
+      "id": 35,
+      "assigned_to": null
+    },
+    {
+      "name": "Testing & Release Engineer",
+      "category": "Core",
+      "id": 36,
+      "assigned_to": null
+    }
+  ],
+  "modules": [
+    {
+      "name": "AimAssist",
+      "category": "Combat",
+      "id": 1,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "AutoClicker",
+      "category": "Combat",
+      "id": 2,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "BlockHit",
+      "category": "Combat",
+      "id": 3,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "KeepSprint",
+      "category": "Combat",
+      "id": 4,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Killaura",
+      "category": "Combat",
+      "id": 5,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Reach",
+      "category": "Combat",
+      "id": 6,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Right Clicker",
+      "category": "Combat",
+      "id": 7,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "SilentAura",
+      "category": "Combat",
+      "id": 8,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Sprint",
+      "category": "Combat",
+      "id": 9,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Velocity",
+      "category": "Combat",
+      "id": 10,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "WTap",
+      "category": "Combat",
+      "id": 11,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "AntiDebuff",
+      "category": "Render",
+      "id": 12,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Arrows",
+      "category": "Render",
+      "id": 13,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Chams",
+      "category": "Render",
+      "id": 14,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "ESP",
+      "category": "Render",
+      "id": 15,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Explosions",
+      "category": "Render",
+      "id": 16,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Fullbright",
+      "category": "Render",
+      "id": 17,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Health",
+      "category": "Render",
+      "id": 18,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "HitSelect",
+      "category": "Render",
+      "id": 19,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Indicators",
+      "category": "Render",
+      "id": 20,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "ItemESP",
+      "category": "Render",
+      "id": 21,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "NameTags",
+      "category": "Render",
+      "id": 22,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Projectiles",
+      "category": "Render",
+      "id": 23,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "StorageESP",
+      "category": "Render",
+      "id": 24,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Target Info",
+      "category": "Render",
+      "id": 25,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Alt Manager",
+      "category": "Utility",
+      "id": 26,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "AntiBot",
+      "category": "Utility",
+      "id": 27,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "AntiFireball",
+      "category": "Utility",
+      "id": 28,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "AutoArmor",
+      "category": "Utility",
+      "id": 29,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "AutoFish",
+      "category": "Utility",
+      "id": 30,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "AutoHotbar",
+      "category": "Utility",
+      "id": 31,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "AutoPearl",
+      "category": "Utility",
+      "id": 32,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "ChestSteal",
+      "category": "Utility",
+      "id": 33,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "FastPlace",
+      "category": "Utility",
+      "id": 34,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Friends",
+      "category": "Utility",
+      "id": 35,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "HitBoxes",
+      "category": "Utility",
+      "id": 36,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "InvCleaner",
+      "category": "Utility",
+      "id": 37,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "InvWalk",
+      "category": "Utility",
+      "id": 38,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "InventoryManager",
+      "category": "Utility",
+      "id": 39,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Macros",
+      "category": "Utility",
+      "id": 40,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "MurdererFinder",
+      "category": "Utility",
+      "id": 41,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "NoFall",
+      "category": "Utility",
+      "id": 42,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Panic",
+      "category": "Utility",
+      "id": 43,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Profiles",
+      "category": "Utility",
+      "id": 44,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "PropHunt",
+      "category": "Utility",
+      "id": 45,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Refill",
+      "category": "Utility",
+      "id": 46,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Search",
+      "category": "Utility",
+      "id": 47,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "ThrowDebuff",
+      "category": "Utility",
+      "id": 48,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Throwpot",
+      "category": "Utility",
+      "id": 49,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Xray",
+      "category": "Utility",
+      "id": 50,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "BackTrack",
+      "category": "Movement",
+      "id": 51,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Blink",
+      "category": "Movement",
+      "id": 52,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Clutch",
+      "category": "Movement",
+      "id": 53,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "FakeLag",
+      "category": "Movement",
+      "id": 54,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Fly",
+      "category": "Movement",
+      "id": 55,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Freecam",
+      "category": "Movement",
+      "id": 56,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "MLG",
+      "category": "Movement",
+      "id": 57,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Parkour",
+      "category": "Movement",
+      "id": 58,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "SafeWalk",
+      "category": "Movement",
+      "id": 59,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Scaffold",
+      "category": "Movement",
+      "id": 60,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Timer",
+      "category": "Movement",
+      "id": 61,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Anti-AFK",
+      "category": "World",
+      "id": 62,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "AutoTool",
+      "category": "World",
+      "id": 63,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "Block-In",
+      "category": "World",
+      "id": 64,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "BedBreaker",
+      "category": "World",
+      "id": 65,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "BedPlates",
+      "category": "World",
+      "id": 66,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    },
+    {
+      "name": "ArmorSwitch",
+      "category": "Inventory",
+      "id": 67,
+      "status": "Planned",
+      "keybind": "None",
+      "assigned_to": null
+    }
+  ],
+  "timeline": [
+    {
+      "phase": 1,
+      "title": "Phase 1 — Injection Foundation",
+      "order": 1,
+      "desc": "DLL injection, JNI bridge, classloader hooks, packet interceptors, event system, command framework. Core infrastructure.",
+      "id": 1
+    },
+    {
+      "phase": 1,
+      "title": "ClickGUI Foundation",
+      "order": 2,
+      "desc": "Basic panel system, component rendering, window dragging, button and slider elements.",
+      "id": 2
+    },
+    {
+      "phase": 1,
+      "title": "Phase 1 Complete",
+      "order": 3,
+      "desc": "Injection working, basic GUI functional, packet system live, command framework ready.",
+      "id": 3
+    },
+    {
+      "phase": 2,
+      "title": "Phase 2 — Core Modules",
+      "order": 1,
+      "desc": "Killaura, AimAssist, AutoClicker, Reach, Velocity, Scaffold, ESP, Chams, NameTags.",
+      "id": 4
+    },
+    {
+      "phase": 2,
+      "title": "HUD & Theme System",
+      "order": 2,
+      "desc": "Watermark, array list, keystrokes, CPS display, potion HUD. Theme presets.",
+      "id": 5
+    },
+    {
+      "phase": 2,
+      "title": "Phase 2 Complete",
+      "order": 3,
+      "desc": "Core combat + render modules functional. HUD live with theme support.",
+      "id": 6
+    },
+    {
+      "phase": 3,
+      "title": "Phase 3 — Expansion",
+      "order": 1,
+      "desc": "Movement, Utility, and World modules. Broadening Glacier's capability.",
+      "id": 7
+    },
+    {
+      "phase": 3,
+      "title": "Config & Profiles",
+      "order": 2,
+      "desc": "Save/load system, profile switching, import/export. Alt manager, friends list.",
+      "id": 8
+    },
+    {
+      "phase": 3,
+      "title": "Phase 3 Complete",
+      "order": 3,
+      "desc": "Full feature suite. 60+ modules operational. Beta release.",
+      "id": 9
+    },
+    {
+      "phase": 4,
+      "title": "Phase 4 — Anti-Detection & Release",
+      "order": 1,
+      "desc": "Bypass testing, randomization passes, signature obfuscation, packet normalization.",
+      "id": 10
+    },
+    {
+      "phase": 4,
+      "title": "Testing & Bug Fixes",
+      "order": 2,
+      "desc": "Full QA pass, edge cases, crash fixes, performance optimization.",
+      "id": 11
+    },
+    {
+      "phase": 4,
+      "title": "Glacier Launch",
+      "order": 3,
+      "desc": "Public release. Version 1.0. Documentation, distribution, community setup.",
+      "id": 12
+    }
+  ],
+  "next_member_id": 2
+}
