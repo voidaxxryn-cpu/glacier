@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}Glacier — Ghost Client{% endblock %}
+{% block content %}
+<div class="hero">
+    <h1>Glacier</h1>
+    <p class="subtitle">1.8.9 Ghost Client &mdash; C++ JNI Injectable</p>
+    {% if team_count < 6 %}
+    <div class="team-count">
+        <strong>{{ 6 - team_count }}</strong> spot{{ 's' if 6 - team_count != 1 else '' }} remaining
+    </div>
+    {% else %}
+    <div class="team-count">
+        Team is full &mdash; <strong>Glacier</strong> in development
+    </div>
+    {% endif %}
+</div>
+
+<div class="card">
+    <h2>Ghost. Not Blatant.</h2>
+    <p>
+        Glacier is an injectable ghost client for Minecraft 1.8.9, built in C++ with JNI bridging.
+        Designed to bypass anticheats while maintaining a legitimate playstyle.
+        Aim assist, autoclicker, reach, and everything in between &mdash; undetected.
+    </p>
+</div>
+
+<div class="card">
+    <h2>The Team</h2>
+    <p>
+        6 members, 36 roles, one build. Every module, every system, every line of code is planned and assigned.
+        When the team is full, registration locks. No randoms. No bloat.
+    </p>
+</div>
+
+<div class="card">
+    <h2>60+ Modules</h2>
+    <p>
+        Combat, Render, Utility, Movement, World, Inventory, Minigames &mdash; full catalog with keybinds, status tracking, and per-module assignment. Every module has a bind slot. Every bind is configurable.
+    </p>
+</div>
+{% endblock %}

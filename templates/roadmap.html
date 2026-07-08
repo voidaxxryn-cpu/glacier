@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Roadmap — Glacier{% endblock %}
+{% block content %}
+<div class="page-header">
+    <h1>Roadmap</h1>
+    <p>Development timemap &mdash; 4 phases to launch</p>
+</div>
+
+<div class="timeline">
+    {% for phase_num in range(1, 5) %}
+    {% set events = timeline[phase_num] %}
+    <div class="phase-group">
+        <div class="phase-header">
+            Phase {{ phase_num }}
+            <span class="phase-badge">{{ events|length }} milestone{{ 's' if events|length != 1 else '' }}</span>
+        </div>
+        {% for event in events %}
+        <div class="timeline-item">
+            <div class="tl-title">{{ event.title }}</div>
+            {% if event.description %}
+            <div class="tl-desc">{{ event.description }}</div>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
